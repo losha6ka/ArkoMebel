@@ -2737,7 +2737,7 @@ body {
 .cart-accept__body-title {
   margin-bottom: 2.5rem;
   font-weight: 700;
-  margin-bottom: calc(20px + 20 * ((100vw - 320px) / 1600));
+  margin-bottom: calc(25px + 15 * ((100vw - 320px) / 1600));
 }
 .cart-accept__radio {
   display: flex;
@@ -2746,12 +2746,12 @@ body {
 }
 .cart-accept__radio:not(:last-child) {
   margin-bottom: 3.125rem;
-  margin-bottom: calc(30px + 20 * ((100vw - 320px) / 1600));
+  margin-bottom: calc(40px + 10 * ((100vw - 320px) / 1600));
 }
 @media (max-width: 1270px) {
   .cart-accept__radio {
     flex-direction: column;
-    gap: calc(25px + 10 * ((100vw - 320px) / 1600));
+    gap: 1.875rem;
   }
 }
 .cart-accept__radio-item {

@@ -3409,7 +3409,7 @@
 		&__body-title {
 			margin-bottom: rem(40);
 			font-weight: 700;
-			@include adaptiv-value(margin-bottom,40,20,0);
+			@include adaptiv-value(margin-bottom,40,25,0);
 		}
 
 
@@ -3421,12 +3421,13 @@
 			@include adaptiv-value(gap,57,35,0);
 			&:not(:last-child){
 				margin-bottom: rem(50);
-				@include adaptiv-value(margin-bottom,50,30,0);
+				@include adaptiv-value(margin-bottom,50,40,0);
 			}
 			@media (max-width:1270px){
 				flex-direction: column;
-				@include adaptiv-value(gap,35,25,0);
+				gap:rem(30);
 			}
+			
 		}
 
 		&__radio-item {
