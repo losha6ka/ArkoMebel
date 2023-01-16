@@ -3425,7 +3425,7 @@
 			}
 			@media (max-width:1270px){
 				flex-direction: column;
-				@include adaptiv-value(gap,35,15,0);
+				@include adaptiv-value(gap,35,25,0);
 			}
 		}
 

@@ -2751,7 +2751,7 @@ body {
 @media (max-width: 1270px) {
   .cart-accept__radio {
     flex-direction: column;
-    gap: calc(15px + 20 * ((100vw - 320px) / 1600));
+    gap: calc(25px + 10 * ((100vw - 320px) / 1600));
   }
 }
 .cart-accept__radio-item {
