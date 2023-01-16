@@ -1,0 +1,977 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8">
+	<!-- Заголовок страницы в браузере -->
+	<title>ArkoMebel</title>
+	<!-- Адаптив -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="SCSS/style.css">
+	<!-- Logo -->
+	<link rel="shortcut icon" href="" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top top-header">
+					<div class="top-header__filler">
+						<div class="top-header__find">
+							<form action="#">
+								<input class="top-header__find-input" type="text" placeholder="Поиск">
+								<img class="top-header__find-icon" src="" data="./img/icons/find.svg" alt="">
+							</form>
+						</div>
+					</div>
+					<div class="top-header__menu">
+						<div class="top-header__items">
+							<div class="top-header__spoiler">
+								<button class="top-header__element top-header__element-kitchen">КУХНИ</button>
+								<ul class="top-header__content top-header__content-kitchen">
+									<li class="top-header__li"><a href="" class="top-header__page">Модульные кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Готовые комплекты</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Маленькие кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Угловые кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Кухонные уголки</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Столы кухонные</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Стулья для кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Комплектующие</a>
+									</li>
+								</ul>
+							</div>
+							<div class="top-header__spoiler">
+								<button class="top-header__element top-header__element-livingroom">ГОСТИННЫЕ</button>
+								<ul class="top-header__content top-header__content-livingroom">
+									<li class="top-header__li"><a href="" class="top-header__page">Модульные кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Готовые комплекты</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Маленькие кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Угловые кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Кухонные уголки</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Столы кухонные</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Стулья для кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Комплектующие</a>
+									</li>
+								</ul>
+							</div>
+							<div class="top-header__spoiler">
+								<button class="top-header__element top-header__element-bedroom">СПАЛЬНИ</button>
+								<ul class="top-header__content top-header__content-bedroom">
+									<li class="top-header__li"><a href="" class="top-header__page">Модульные кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Готовые комплекты</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Маленькие кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Угловые кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Кухонные уголки</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Столы кухонные</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Стулья для кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Комплектующие</a>
+									</li>
+								</ul>
+							</div>
+							<div class="top-header__spoiler">
+								<button
+									class="top-header__element top-header__element-triplewaredrope">ПРИХОЖИЕ</button>
+								<ul class="top-header__content top-header__content-triplewaredrope">
+									<li class="top-header__li"><a href="" class="top-header__page">Модульные кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Готовые комплекты</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Маленькие кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Угловые кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Кухонные уголки</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Столы кухонные</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Стулья для кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Комплектующие</a>
+									</li>
+								</ul>
+							</div>
+							<div class="top-header__spoiler">
+								<button class="top-header__element top-header__element-doublewaredrope">ШКАФЫ-КУПЕ
+								</button>
+								<ul class="top-header__content top-header__content-doublewaredrope">
+									<li class="top-header__li"><a href="" class="top-header__page">Модульные кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Готовые комплекты</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Маленькие кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Угловые кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Кухонные уголки</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Столы кухонные</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Стулья для кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Комплектующие</a>
+									</li>
+								</ul>
+							</div>
+							<div class="top-header__spoiler">
+								<button class="top-header__element top-header__element-bunkbed">ДЕТСКИЕ</button>
+								<ul class="top-header__content top-header__content-bunkbed">
+									<li class="top-header__li"><a href="" class="top-header__page">Модульные кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Готовые комплекты</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Маленькие кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Угловые кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Кухонные уголки</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Столы кухонные</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Стулья для кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Комплектующие</a>
+									</li>
+								</ul>
+							</div>
+							<div class="top-header__spoiler">
+								<button class="top-header__element top-header__element-diningroom">СТОЛЫ И
+									СТУЛЬЯ</button>
+								<ul class="top-header__content top-header__content-diningroom">
+									<li class="top-header__li"><a href="" class="top-header__page">Модульные кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Готовые комплекты</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Маленькие кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Угловые кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Кухонные уголки</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Столы кухонные</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Стулья для кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Комплектующие</a>
+									</li>
+								</ul>
+							</div>
+							<div class="top-header__spoiler">
+								<button class="top-header__element top-header__element-doublesofa">ДИВАНЫ</button>
+								<ul class="top-header__content top-header__content-doublesofa">
+									<li class="top-header__li"><a href="" class="top-header__page">Модульные кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Готовые комплекты</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Маленькие кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Угловые кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Кухонные уголки</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Столы кухонные</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Стулья для кухни</a>
+									</li>
+									<li class="top-header__li"><a href="" class="top-header__page">Комплектующие</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="top-header__location">
+							<img src="" data="./img/icons/location.svg" alt="">
+							<select class="top-header__city" name="" id="YourCity">
+								<option class="top-header__city" value="Kiev">Kiev</option>
+								<option class="top-header__city" value="Kiev">Kiev</option>
+								<option class="top-header__city" value="Kiev">Kiev</option>
+								<option class="top-header__city" value="Kiev">Kiev</option>
+							</select>
+						</div>
+						<div class="top-header__number">
+							<a class="top-header__tel" href="tel:89615259191"><img src="" data="./img/icons/phone.svg"
+									alt=""> 8
+								(961) 525 91 91</a>
+							<a href="" class="top-header__reverse-call">Заказать обратный звонок</a>
+						</div>
+						<ul class="top-header__list">
+							<li class="top-header__item item-hiden"><a href="" class="top-header__link">Избранное</a>
+							</li>
+							<li class="top-header__item"><a href="action.html" class="top-header__link">Акции</a></li>
+							<li class="top-header__item"><a href="gathering.html" class="top-header__link">Сборка</a>
+							</li>
+							<li class="top-header__item"><a href="payship.html" class="top-header__link">Доставка</a>
+							</li>
+							<li class="top-header__item"><a href="info.html" class="top-header__link">О нас</a>
+							</li>
+							<li class="top-header__item item-hiden"><a href="ourworks.html"
+									class="top-header__link">Наши работы</a>
+							</li>
+							<li class="top-header__item item-hiden"><a href="contact.html"
+									class="top-header__link">Контакты</a>
+							</li>
+							<li class="top-header__item login item-hiden"><a href=""
+									class="top-header__link login-link">Войти</a>
+							</li>
+						</ul>
+					</div>
+					<div class="top-header__info">
+						<ul class="top-header__information">
+							<li class="top-header__item"><a href="ourworks.html" class="top-header__link-work">Наши
+									работы</a>
+							</li>
+							<li class="top-header__item"><a href="contact.html"
+									class="top-header__link-contact">Контакты</a>
+							</li>
+						</ul>
+					</div>
+					<div class="top-header__burger">
+						<button class="menu-btn">
+							<span></span>
+						</button>
+					</div>
+				</div>
+				<div class="header__mid mid-header">
+					<div class="mid-header__logo logo">
+						<a href="index.html">
+							<img class="logo__img" src="" data="./img/logo/logo.svg" alt="">
+						</a>
+					</div>
+					<div class="mid-header__location">
+						<img src="" data="./img/icons/map.svg" alt="" class="mid-header__base-img">
+						<div class="mid-header__base"><a href="">ул. Киевская, 144 корп. - 1</a></div>
+						<div class="mid-header__base-fare"><a href="">Схема проезда</a></div>
+					</div>
+					<div class="mid-header__find">
+						<form action="#">
+							<input class="mid-header__find-input" type="text" placeholder="Поиск">
+							<img class="mid-header__find-icon" src="" data="./img/icons/find.svg" alt="">
+						</form>
+					</div>
+					<div class="mid-header__call">
+						<a href="tel:89615259191"><img src="" data="./img/icons/phone.svg" alt=""></a>
+						<div class="mid-header__number">
+							<a class="mid-header__number-tel" href="tel:89615259191">8 (961) 525 91 91</a>
+							<a href="" class="mid-header__number-call">Заказать звонок</a>
+						</div>
+					</div>
+					<div class="mid-header__main">
+						<div class="mid-header__item">
+							<a href="profile.html">
+								<img class="mid-header__item-img" src="" data="./img/icons/profile.svg" alt="">
+								<div class="mid-header__item-text">Войти</div>
+							</a>
+						</div>
+						<div class="mid-header__item">
+							<a href="favorite.html">
+								<img class="mid-header__item-img" src="" data="./img/icons/favorite.svg" alt="">
+								<div class="mid-header__item-text">Избранное</div>
+							</a>
+						</div>
+						<div class="mid-header__item">
+							<a href="cart.html">
+								<img class="mid-header__item-img" src="" data="./img/icons/cart.svg" alt="">
+								<div class="mid-header__item-text">Корзина</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="top-header__burger mid-header__burger">
+						<button class="menu-btn menus-btn">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="header__bott bott-header">
+				<div class="bott-header__items">
+					<div class="bott-header__item">
+						<h2 class="bott-header__title">КУХНИ</h2>
+						<ul class="bott-header__list">
+							<li class="bott-header__li"><a href="" class="bott-header__link">Модульные кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Готовые комплекты</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Маленькие кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Угловые кухни</a></li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Кухонные уголки</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Столы кухонные</a></li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Стулья для кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Комплектующие</a></li>
+						</ul>
+					</div>
+					<div class="bott-header__item">
+						<h2 class="bott-header__title">ГОСТИННЫЕ</h2>
+						<ul class="bott-header__list">
+							<li class="bott-header__li"><a href="" class="bott-header__link">Модульные кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Готовые комплекты</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Маленькие кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Угловые кухни</a></li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Кухонные уголки</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Столы кухонные</a></li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Стулья для кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Комплектующие</a></li>
+						</ul>
+					</div>
+					<div class="bott-header__item">
+						<h2 class="bott-header__title">СПАЛЬНИ</h2>
+						<ul class="bott-header__list">
+							<li class="bott-header__li"><a href="" class="bott-header__link">Модульные кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Готовые комплекты</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Маленькие кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Угловые кухни</a></li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Кухонные уголки</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Столы кухонные</a></li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Стулья для кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Комплектующие</a></li>
+						</ul>
+					</div>
+					<div class="bott-header__item">
+						<h2 class="bott-header__title">ПРИХОЖИЕ</h2>
+						<ul class="bott-header__list">
+							<li class="bott-header__li"><a href="" class="bott-header__link">Модульные кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Готовые комплекты</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Маленькие кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Угловые кухни</a></li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Кухонные уголки</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Столы кухонные</a></li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Стулья для кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Комплектующие</a></li>
+						</ul>
+					</div>
+					<div class="bott-header__item">
+						<h2 class="bott-header__title">ШКАФЫ-КУПЕ</h2>
+						<ul class="bott-header__list">
+							<li class="bott-header__li"><a href="" class="bott-header__link">Модульные кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Готовые комплекты</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Маленькие кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Угловые кухни</a></li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Кухонные уголки</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Столы кухонные</a></li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Стулья для кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Комплектующие</a></li>
+						</ul>
+					</div>
+					<div class="bott-header__item">
+						<h2 class="bott-header__title">ДЕТСКИЕ</h2>
+						<ul class="bott-header__list">
+							<li class="bott-header__li"><a href="" class="bott-header__link">Модульные кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Готовые комплекты</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Маленькие кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Угловые кухни</a></li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Кухонные уголки</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Столы кухонные</a></li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Стулья для кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Комплектующие</a></li>
+						</ul>
+					</div>
+					<div class="bott-header__item">
+						<h2 class="bott-header__title">ДИВАНЫ</h2>
+						<ul class="bott-header__list">
+							<li class="bott-header__li"><a href="" class="bott-header__link">Модульные кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Готовые комплекты</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Маленькие кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Угловые кухни</a></li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Кухонные уголки</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Столы кухонные</a></li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Стулья для кухни</a>
+							</li>
+							<li class="bott-header__li"><a href="" class="bott-header__link">Комплектующие</a></li>
+						</ul>
+					</div>
+					<div class="bott-header__actions">
+						<button class="bott-header__button">ГДЕ ПОСМОТРЕТЬ</button>
+					</div>
+				</div>
+			</div>
+			<div class="mid-header__find-hiden">
+				<form action="#">
+					<input class="mid-header__find-hiden-input" type="text" placeholder="Поиск">
+				</form>
+			</div>
+		</header>
+		<main class="main">
+			<section class="main-page page">
+				<div class="page__container">
+					<div class="page-action__path">
+						<a href="index.html" class="page-action__path-main">Главная</a>
+						<a href="info.html" class="page-action__path-action page-action__path-active">О нас</a>
+					</div>
+				</div>
+			</section>
+			<section class="main-ourworks ourworks">
+				<div class="ourworks__container">
+					<h2 class="ourworks__title page-title">НАШИ РАБОТЫ</h2>
+					<div class="ourworks__tab">
+						<div class="ourworks__item">
+							<button class="ourworks__tablinks active" onclick="openCity(event, 'kitchen')"
+								id="defaultOpen">КУХНИ
+							</button>
+							<button class="ourworks__tablinks" onclick="openCity(event, 'partners')">
+								ДРУГАЯ МЕБЕЛЬ
+							</button>
+						</div>
+						<div id="kitchen" class="ourworks__tabcontent">
+							<div id="kitchen-1" class="ourworks__body">
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/01.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/01.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/01.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/01.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/01.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/01.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/01.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/01.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/01.jpg"
+											alt=""></a>
+								</div>
+							</div>
+							<div id="kitchen-2" class="ourworks__body">
+								<div class="ourworks__img"><a href=""><img src="" data="./img/principle/01.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/principle/01.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/principle/01.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/principle/01.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/principle/01.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/principle/01.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/principle/01.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/principle/01.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/principle/01.jpg"
+											alt=""></a>
+								</div>
+							</div>
+							<div class="ourworks__item-body">
+								<button id="PageOpen" class="ourworks__tablinks-body active"
+									onclick="openPage(event, 'kitchen-1')">
+									1
+								</button>
+								<button class="ourworks__tablinks-body" onclick="openPage(event, 'kitchen-2')">
+									2
+								</button>
+							</div>
+						</div>
+						<div id="partners" class="ourworks__tabcontent">
+							<div class="ourworks__body-partners">
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/02.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/02.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/02.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/02.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/02.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/02.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/02.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/02.jpg"
+											alt=""></a>
+								</div>
+								<div class="ourworks__img"><a href=""><img src="" data="./img/portfolio/02.jpg"
+											alt=""></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main-principle principle">
+				<div class="principle__container">
+					<div class="principle__items">
+						<div class="principle__img"><img src="" data="./img/principle/01.jpg" alt=""></div>
+						<div class="principle__body">
+							<h2 class="principle__title page-title">ПРИНЦИПЫ НАШЕЙ РАБОТЫ</h2>
+							<div class="principle__text">
+								<p>Мы выполним заказ под ключ, обеспечив доставку и монтаж мебели по адресу заказчика.
+									У нас работают опытные сборщики, выполняющие свои обязанности ответственно и
+									качественно. Они подключат дополнительное оборудование и проверят, как оно будет
+									функционировать.
+								</p>
+								<p>На все виды работ мы предоставим свои гарантии. Сочетание всех преимуществ, которыми
+									располагает наша компания, обеспечивает высокую репутацию нашей продукции. При
+									разработке каждого проекта наши дизайнеры применяют программы 3-Д моделирования.
+									Любой
+									заказчик сможет увидеть проект и оценить, как будет выглядеть выбранная им мебель в
+									помещении. Только после его одобрения мы направим заказ в работу
+									и обеспечим его выполнение в разумные сроки.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main-question question">
+				<div class="question__container">
+					<div class="question__body">
+						<h2 class="question__title">ОСТАЛИСЬ ВОПРОСЫ?</h2>
+						<div class="question__about">
+							<p>Расскажем, подскажем, поможем подобрать лучшее с учетом любого бюджета!</p>
+						</div>
+						<form class="question__form" action="#">
+							<div class="question__form-name"><input type="text" placeholder="Имя*" name="name"></div>
+							<div class="question__form-tel"><input type="tel" placeholder="Телефон*" name="phone">
+							</div>
+							<div class="question__form-accept">
+								<input type="checkbox">
+								<p>
+									Нажимая на кнопку “отправить”, вы
+									даете
+									согласие на обработку ваших персональных данных.
+								</p>
+							</div>
+							<button class="question__form-button" type="submit">ОТПРАВИТЬ</button>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="main-social social">
+				<div class="social__container">
+					<h2 class="social__title page-title"><a href="https://www.instagram.com/losha6ka/">МЫ В
+							INSTAGRAM</a></h2>
+					<div class="social__gallery">
+						<div class="social__item"><a href="https://www.instagram.com/losha6ka/"><img
+									class="social__item-img" src="" data="./img/gallery-inst/01.jpg" alt=""></a></div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__main">
+					<div class="footer__logo logo">
+						<a href="index.html">
+							<img class="footer__logo-img logo__img" src="" data="./img/logo/logo.svg" alt="">
+						</a>
+						<a href="tel:3296152591" class="footer__tel-hiden">32-961-525-911</a>
+					</div>
+					<a href="tel:3296152591" class="footer__tel">32-961-525-911</a>
+					<div class="footer__info">
+						<div class="footer__info-item">
+							<div class="footer__info-title">Время работы:</div>
+							<div class="footer__info-content">с 10:00 до 19:00</div>
+						</div>
+						<div class="footer__info-item">
+							<div class="footer__info-title">Адрес:</div>
+							<a href="" class="footer__info-content">Чернодар,<br>
+								ул. Киевская 144 корп. - 1</ф>
+						</div>
+						<div class="footer__info-item">
+							<div class="footer__info-title">Почта:</div>
+							<a href="mailto:autoemail@gmail.com" class="footer__info-content">autoemail@gmail.com</a>
+						</div>
+					</div>
+					<div class="footer__social">
+						<div class="footer__social-title">Мы в Инстаграме</div>
+						<a class="footer__social-img" href=""><img src="" data="./img/social/inst.svg" alt=""></a>
+					</div>
+				</div>
+				<div class="footer__navigation">
+					<div class="footer__item">
+						<div class="footer__item-title"><a href="">Кухни</a></div>
+						<ul class="footer__item-content">
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Модульные кухни</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Готовые комплекты</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Маленькие кухни</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Угловые кухни</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Кухонные уголки</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Столы кухонные</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Стулья для кухни</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Комплектующие</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<div class="footer__item-title"><a href="">Гостинные</a></div>
+						<ul class="footer__item-content">
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Модульные
+								</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Журнальные столы</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Полки</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Тумбы под ТВ</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Шкафы</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Стеллажи</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<div class="footer__item-title"><a href="">Спальни</a></div>
+						<ul class="footer__item-content">
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Кровати</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Матрацы</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Шкафы</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Комоды</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Столы туалетные</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Тумбы прикроватные</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Зеркала</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<div class="footer__item-title"><a href="">Диваны</a></div>
+						<ul class="footer__item-content">
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Прямые</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Угловые</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">На металлокаркасе</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Кресла</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<div class="footer__item-title"><a href="">Детские</a></div>
+						<ul class="footer__item-content">
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Кровати</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Полки</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Столы</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Тумбы</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Шкафы</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Комоды</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<div class="footer__item-title"><a href="">Прихожие</a></div>
+						<ul class="footer__item-content">
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Модульные</a>
+							</li>
+							<li class="footer__item-list">
+								<a href="" class="footer__item-link">Обувницы</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__navigation-hiden">
+					<div class="top-header__spoiler">
+						<button class="top-header__element top-header__element-kitchen">КУХНИ</button>
+						<ul class="top-header__content top-header__content-kitchen">
+							<li class="top-header__li"><a href="" class="top-header__page">Модульные кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Готовые комплекты</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Маленькие кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Угловые кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Кухонные уголки</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Столы кухонные</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Стулья для кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Комплектующие</a>
+							</li>
+						</ul>
+					</div>
+					<div class="top-header__spoiler">
+						<button class="top-header__element top-header__element-livingroom">ГОСТИННЫЕ</button>
+						<ul class="top-header__content top-header__content-livingroom">
+							<li class="top-header__li"><a href="" class="top-header__page">Модульные кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Готовые комплекты</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Маленькие кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Угловые кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Кухонные уголки</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Столы кухонные</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Стулья для кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Комплектующие</a>
+							</li>
+						</ul>
+					</div>
+					<div class="top-header__spoiler">
+						<button class="top-header__element top-header__element-bedroom">СПАЛЬНИ</button>
+						<ul class="top-header__content top-header__content-bedroom">
+							<li class="top-header__li"><a href="" class="top-header__page">Модульные кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Готовые комплекты</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Маленькие кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Угловые кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Кухонные уголки</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Столы кухонные</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Стулья для кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Комплектующие</a>
+							</li>
+						</ul>
+					</div>
+					<div class="top-header__spoiler">
+						<button class="top-header__element top-header__element-triplewaredrope">ПРИХОЖИЕ</button>
+						<ul class="top-header__content top-header__content-triplewaredrope">
+							<li class="top-header__li"><a href="" class="top-header__page">Модульные кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Готовые комплекты</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Маленькие кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Угловые кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Кухонные уголки</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Столы кухонные</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Стулья для кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Комплектующие</a>
+							</li>
+						</ul>
+					</div>
+					<div class="top-header__spoiler">
+						<button class="top-header__element top-header__element-doublewaredrope">ШКАФЫ-КУПЕ</button>
+						<ul class="top-header__content top-header__content-doublewaredrope">
+							<li class="top-header__li"><a href="" class="top-header__page">Модульные кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Готовые комплекты</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Маленькие кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Угловые кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Кухонные уголки</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Столы кухонные</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Стулья для кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Комплектующие</a>
+							</li>
+						</ul>
+					</div>
+					<div class="top-header__spoiler">
+						<button class="top-header__element top-header__element-bunkbed">ДЕТСКИЕ</button>
+						<ul class="top-header__content top-header__content-bunkbed">
+							<li class="top-header__li"><a href="" class="top-header__page">Модульные кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Готовые комплекты</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Маленькие кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Угловые кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Кухонные уголки</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Столы кухонные</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Стулья для кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Комплектующие</a>
+							</li>
+						</ul>
+					</div>
+					<div class="top-header__spoiler">
+						<button class="top-header__element top-header__element-diningroom">СТОЛЫ И
+							СТУЛЬЯ</button>
+						<ul class="top-header__content top-header__content-diningroom">
+							<li class="top-header__li"><a href="" class="top-header__page">Модульные кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Готовые комплекты</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Маленькие кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Угловые кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Кухонные уголки</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Столы кухонные</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Стулья для кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Комплектующие</a>
+							</li>
+						</ul>
+					</div>
+					<div class="top-header__spoiler">
+						<button class="top-header__element top-header__element-doublesofa">ДИВАНЫ</button>
+						<ul class="top-header__content top-header__content-doublesofa">
+							<li class="top-header__li"><a href="" class="top-header__page">Модульные кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Готовые комплекты</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Маленькие кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Угловые кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Кухонные уголки</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Столы кухонные</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Стулья для кухни</a>
+							</li>
+							<li class="top-header__li"><a href="" class="top-header__page">Комплектующие</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copyrite">© Все права защищены</div>
+		</footer>
+	</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="./JS/ourworks.js"></script>
+
+</html>
