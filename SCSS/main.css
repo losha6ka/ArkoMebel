@@ -2835,6 +2835,9 @@ body {
 .cart-accept .question__form-accept.active::before {
   border: none;
 }
+.cart-accept .question__form-accept.active p {
+  color: #000;
+}
 .cart-accept__summary-button {
   background: #384685;
   border-radius: 5px;
