@@ -7,7 +7,8 @@ body {
   font-family: "PT Sans";
   font-size: 1.125rem;
   color: #1D1818;
-  line-height: 1.27; /* 23/18 */
+  line-height: 1.27;
+  /* 23/18 */
 }
 
 @media (max-width: 768.98px) {
@@ -20,7 +21,8 @@ body {
   font-family: "PT Sans";
   font-size: 1.125rem;
   color: #1D1818;
-  line-height: 1.27; /* 23/18 */
+  line-height: 1.27;
+  /* 23/18 */
 }
 
 [class*=__container] {
@@ -929,7 +931,8 @@ body {
 .mid-header__number-tel {
   margin-left: 0.3125rem;
   font-size: 1.375rem;
-  line-height: 127.272727%; /* 28/22 */
+  line-height: 127.272727%;
+  /* 28/22 */
   font-weight: 700;
   margin-bottom: 0.6875rem;
   white-space: nowrap;
@@ -1054,7 +1057,8 @@ body {
   cursor: pointer;
   transition: 0.3s;
   font-size: 1.25rem;
-  line-height: 130%; /* 26/20 */
+  line-height: 130%;
+  /* 26/20 */
   font-weight: 700;
   white-space: nowrap;
   font-size: calc(14px + 6 * ((100vw - 320px) / 1600));
@@ -1089,8 +1093,10 @@ body {
 }
 .bott-header__link {
   line-height: 1;
+  display: block;
 }
 .bott-header__button {
+  display: block;
   white-space: nowrap;
   text-align: center;
   padding: 1.34375rem 1.25rem;
@@ -1098,7 +1104,8 @@ body {
   border-radius: 5px;
   color: #ffffff;
   font-size: 1.25rem;
-  line-height: 130%; /* 26/20 */
+  line-height: 130%;
+  /* 26/20 */
   font-weight: 700;
   transition: 0.3s;
 }

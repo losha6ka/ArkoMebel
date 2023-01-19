@@ -7,7 +7,8 @@ body {
   font-family: "PT Sans";
   font-size: 1.125rem;
   color: #1D1818;
-  line-height: 1.27; /* 23/18 */
+  line-height: 1.27;
+  /* 23/18 */
 }
 
 @media (max-width: 768.98px) {
@@ -20,7 +21,8 @@ body {
   font-family: "PT Sans";
   font-size: 1.125rem;
   color: #1D1818;
-  line-height: 1.27; /* 23/18 */
+  line-height: 1.27;
+  /* 23/18 */
 }
 
 [class*=__container] {
