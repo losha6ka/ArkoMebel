@@ -1,3 +1,14 @@
+const filterBox = document.querySelectorAll(".product__item");
+document.querySelector(".kitchen__filters").addEventListener('click', event => {
+    if (event.target.className !== 'kitchen__tablinks-filter') return false;
+    let filterClass = event.target.dataset['f'];
+    filterBox.forEach(elem => {
+        elem.classList.remove('hide-filter');
+        if (!elem.classList.contains(filterClass) && filterClass !== 'all') {
+            elem.classList.add('hide-filter');
+        }
+    });
+});
 const swiperCard = new Swiper('.product__slider', {
     // Optional parameters
     direction: 'horizontal',
@@ -32,6 +43,18 @@ const swiperDop = new Swiper('.kitchen-dop__swiper', {
         },
     },
 });
+const swiperAction = new Swiper('.action__slider', {
+    // Optional parameters
+    direction: 'horizontal',
+    speed: 500,
+    spaceBetween: 30,
+    grabCursor: true,
+    loop: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    initialSlide: 3,
+
+});
 $(window).scroll(function () {
     var top = $(document).scrollTop();
     if (top < 55) $(".mid-header").removeClass('fixed');
@@ -40,7 +63,7 @@ $(window).scroll(function () {
 $(".menu-btn").click(function (event) {
     $('body').toggleClass('lock');
 });
-function filters(evt, cityName) {
+function pageKitchen(evt, cityName) {
     // Declare all variables
     var i, tabcontent, tablinks;
 
@@ -70,11 +93,27 @@ menuBtn.addEventListener('click', function () {
     menu.classList.toggle('active');
     menuSecond.classList.toggle('active');
 });
+menus.addEventListener('click', function () {
+    menus.classList.toggle('active');
+    menu.classList.toggle('active');
+    menuSecond.classList.toggle('active');
+});
 let inputIcon = document.querySelector('.mid-header__find-icon');
 let input = document.querySelector('.mid-header__find-hiden');
 inputIcon.addEventListener('click', function () {
     inputIcon.classList.toggle('active');
     input.classList.toggle('active');
+});
+let asideBtn = document.querySelector('.kitchen__aside-btn');
+let aside = document.querySelector('.aside-kitchen');
+let asideBtnClose = document.querySelector('.kitchen__aside-btn-close');
+asideBtn.addEventListener('click', function () {
+    asideBtn.classList.toggle('active');
+    aside.classList.toggle('active');
+});
+asideBtnClose.addEventListener('click', function () {
+    asideBtn.classList.toggle('active');
+    aside.classList.toggle('active');
 });
 const rangeSlider = document.getElementById('range-slider');
 if (rangeSlider) {
@@ -101,7 +140,7 @@ if (rangeSlider) {
         rangeSlider.noUiSlider.set(arr)
     };
 
-    inputs.forEach((el,index) => {
+    inputs.forEach((el, index) => {
         el.addEventListener('change', (e) => {
             setRange(index, e.currentTarget.value);
         });
