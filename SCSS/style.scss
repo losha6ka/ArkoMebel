@@ -1,5 +1,6 @@
 //обнуление css
 @import url(reset.css);
+
 //перевод px в rem
 $html-font-size: 16px;
 
@@ -168,8 +169,11 @@ body.lock {
     line-height: 1.3;
     display: flex;
     column-gap: rem(14);
-    padding-bottom: rem(35);
-    padding-top: rem(20);
+    margin-bottom: rem(35);
+    margin-top: rem(20);
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
 
     & a {
         position: relative;
