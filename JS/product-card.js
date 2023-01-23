@@ -301,6 +301,11 @@ menuBtn.addEventListener('click', function () {
     menu.classList.toggle('active');
     menuSecond.classList.toggle('active');
 });
+menus.addEventListener('click', function () {
+    menus.classList.toggle('active');
+    menu.classList.toggle('active');
+    menuSecond.classList.toggle('active');
+});
 let inputIcon = document.querySelector('.mid-header__find-icon');
 let input = document.querySelector('.mid-header__find-hiden');
 inputIcon.addEventListener('click', function () {
